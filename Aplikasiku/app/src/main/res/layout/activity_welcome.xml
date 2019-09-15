@@ -22,7 +22,7 @@
 		android:id="@+id/welcome_text"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:text="Welcome To RedGuava"
+		android:text="Welcome To RedWava"
 		android:textSize="24sp"
 		android:textColor="#313131"
 		android:fontFamily="@font/montserrat_semi_bold"
@@ -43,8 +43,8 @@
 
 	<ImageView
 		android:id="@+id/background_satu"
-		android:layout_width="410dp"
-		android:layout_height="272dp"
+		android:layout_width="417dp"
+		android:layout_height="235dp"
 		android:scaleType="fitXY"
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintEnd_toEndOf="parent"
@@ -62,5 +62,6 @@
 		android:layout_marginBottom="72dp"
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintEnd_toEndOf="parent"
-		app:layout_constraintStart_toStartOf="parent" />
+		app:layout_constraintStart_toStartOf="parent"
+		android:onClick="clickLogin"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
